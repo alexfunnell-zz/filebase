@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta property="og:sitename" content="XploitD Network | Digital Freedom">
+        <meta property="og:title" content="XploitD Network | Digital Freedom">
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://xploitd.com/explorer" />
+		<meta property="og:image" content="/xploitdlogo.png" />
+		<title>xploitd.com</title>
+		<link href="assets/css/styles.css" rel="stylesheet"/> 
+		<link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+		<script src="assets/js/jquery.fancybox.min.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+		<script src="assets/js/jquery-3.2.1.js"></script>
+		<script src="assets/js/script.js"></script>
+		<script src="assets/fancybox-master/dist/jquery.fancybox.js"></script>
+   		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f200c5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+	</head> 
+	<body>
+			<div class="filemanager">
+			<div class="search">
+				<input type="search" placeholder="Search database" />
+			</div>
+			<div class="breadcrumbs"></div>
+			<a class="button folderName" id="backButton" href=""><i class="fa fa-arrow-left" aria-hidden="true"></i> Go Back</a>
+			<a class="button" href="./"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+
+			<ul class="data"></ul>
+			<div class="nothingfound">
+				<div class="nofiles"></div>
+			</div>				
+			</div>
+<script>
+$('.fancybox-media').fancybox({
+    type: 'iframe',
+    width: 800,
+    height: 580,
+    // add
+    fitToView: false,
+    iframe : {
+      preload : false
+    }
+});
+
+</script>
+<div class="footer"><div class="pwrd-by">Powered by Elektrac Sceptre.</div></div>
+
+	</body>
+</html>
